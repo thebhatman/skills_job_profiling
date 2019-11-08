@@ -2,7 +2,7 @@ from indeed import IndeedClient
 import pymysql
 from database import addToDatabase
 
-client = IndeedClient(publisher = ************3506)
+client = IndeedClient(publisher = ***************)
 
 parameters = {'q' : "python developer",
 			  'l' : "Austin",
