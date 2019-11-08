@@ -5,13 +5,13 @@ from database import addToDatabase
 client = IndeedClient(publisher = ***************)
 
 parameters = {'q' : "python developer",
-			  'l' : "Austin",
+			  'l' : "India",
 			  'sort' : "date",
 			  'fromage' : "5",
 			  'limit' : "25",
 			  'filter' : "1",
 			  'userip' : "192.186.176.550:60409",
-			  'useragent' : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2)"
+			  'useragent' : "Mozilla/5.0"
 			 }
 
 def get_offers(params):    
